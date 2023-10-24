@@ -46,7 +46,7 @@ a {
        column-gap: 40px;
 }
 .header-menu ul li a {
-  color: #081F32;
+  color: rgb(138, 138, 138);
   font-family: "Gelasio";
   font-size: 16px;
   font-style: normal;
@@ -84,7 +84,7 @@ a {
 }
 .hero-inner span {
   color: #1B75BB;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -105,14 +105,14 @@ a {
 .hero-inner h1 span {
   color: #1B75BB;
   /* Title / Base */
-  font-family: Gelasio;
+  font-family: "Gelasio";
   font-size: 57px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
 }
 .hero-inner p {
-  color: #081F32;
+  color: rgb(138, 138, 138);
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -143,7 +143,8 @@ a {
   -webkit-backdrop-filter: blur(35px);
           backdrop-filter: blur(35px);
   position: absolute;
-  bottom: 30px;
+  bottom: 0;
+  left: 100px;
   padding: 24px 50px;
 }
 .reserve-col {
@@ -173,6 +174,16 @@ a {
   display: flex;
   align-items: center;
   gap: 100px;
+}
+.info-wrapper .info-image {
+  position: relative;
+}
+.info-wrapper .info-image .video-player-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 46%;
+  left: 38%;
 }
 .info-content h3 {
   color: #1B75BB;
@@ -206,4 +217,412 @@ a {
   line-height: 25.6px; /* 25.6px */
   padding: 15px 30px;
   border: none;
+}
+
+.cards h3 {
+  color: #081F32;
+  /* Heading / Base */
+  font-family: "Gelasio";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.8px; /* 44.8px */
+  text-align: center;
+  margin-bottom: 25px;
+}
+.cards p {
+  color: rgb(138, 138, 138);
+  text-align: center;
+  /* Body / Base */
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px; /* 28.8px */
+  text-align: center;
+  margin-bottom: 60px;
+}
+.cards-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 21px;
+  margin-bottom: 41px;
+}
+.cards-content {
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(138, 138, 138, 0.1529411765);
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(199, 199, 199, 0.279);
+}
+.cards-content h3 {
+  color: #081F32;
+  text-align: center;
+  /* Subheading / Base */
+  font-family: "Gelasio";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* */
+  margin-bottom: 15px;
+}
+.cards-content p {
+  color: rgb(138, 138, 138);
+  text-align: center;
+  /* Body / Base */
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px;
+  margin-bottom: 18px;
+}
+
+.gallery .about-gallery h2 {
+  color: #081F32;
+  /* Heading / Base */
+  font-family: "Gelasio";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.8px;
+  margin-top: 47px;
+}
+.gallery .about-gallery p {
+  color: rgb(138, 138, 138);
+  /* Body / Base */
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+.gallery .about-gallery button {
+  border: none;
+  border-radius: 5px;
+  background: #1B75BB;
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25.6px;
+  padding: 15px 30px;
+}
+.gallery .background-image {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 555px;
+  height: 337px;
+}
+.gallery .background-image .opaque-bg {
+  position: absolute;
+  bottom: 0;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(226, 226, 226, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  padding: 23px 28px;
+}
+.gallery .background-image .opaque-bg .inner-flex-part {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  margin-bottom: 10px;
+}
+.gallery .background-image .opaque-bg .inner-flex-part h2 {
+  color: #081F32;
+  font-family: "Gelasio";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.8px;
+  margin: 0;
+}
+.gallery .background-image .opaque-bg .inner-flex-part p {
+  color: rgb(84, 84, 84);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22.4px;
+  margin: 0;
+}
+.gallery .background-image .opaque-bg button {
+  border: none;
+  border-radius: 5px;
+  background: #1B75BB;
+  color: #FFF;
+  font-family: "Gelasio";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 10px 20px;
+}
+
+.comments .wrapper-clients {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 68px;
+}
+.comments .wrapper-clients h2 {
+  color: #081F32;
+  /* Heading / Base */
+  font-family: "Gelasio";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.8px;
+}
+.comments .wrapper-clients button {
+  border: none;
+  border-radius: 5px;
+  background: #1B75BB;
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 15px 30px;
+}
+.comments .row .comments-box-shadow {
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(199, 199, 199, 0.25);
+}
+.comments .row .comments-content {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 28px 40px;
+}
+.comments .row .comments-content .comments-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.comments .row .comments-content p {
+  color: rgb(138, 138, 138);
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.comments .row .comments-content p span {
+  color: #081F32;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+.comments .row .comments-content h3 {
+  color: rgb(138, 138, 138);
+  text-align: center;
+  font-family: "Gelasio";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+.comments .row .comments-content h3 span {
+  color: #081F32;
+  text-align: center;
+  font-family: "Gelasio";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+.comments .row .comments-content h4 {
+  color: #081F32;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+.email-text h3 {
+  color: #081F32;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.email-text h2 {
+  color: #081F32;
+  text-align: center;
+  font-family: "Gelasio";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.8px;
+  padding-bottom: 50px;
+}
+.email-wrapper {
+  text-align: center;
+}
+.email-wrapper form input[type] {
+  width: 500px;
+  margin: 0 auto;
+  padding: 15px 30px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  display: inline-block;
+  margin-right: -10px;
+  vertical-align: middle;
+}
+.email-wrapper form input[type]::-moz-placeholder {
+  color: rgb(138, 138, 138);
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.email-wrapper form input[type]::placeholder {
+  color: rgb(138, 138, 138);
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.email-wrapper form input[type]:focus {
+  border: 1px solid rgb(84, 84, 84);
+}
+.email-wrapper form button {
+  border: none;
+  border-radius: 5px;
+  background: #1B75BB;
+  color: #FFF;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.48px;
+  padding: 16px 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer .footer-content h2 {
+  color: #081F32;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+footer .footer-content h3 {
+  color: rgb(84, 84, 84);
+  font-family: " Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+footer .footer-content h4 {
+  color: #081F32;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+  letter-spacing: 0.96px;
+  margin-bottom: 15px;
+}
+footer .footer-content p {
+  color: rgb(84, 84, 84);
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+footer .footer-content-logo {
+  width: 100%;
+}
+footer .footer-content .footer-icons-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+footer .footer-content .footer-email form input[type=email] {
+  width: 300px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -10px;
+}
+footer .footer-content .footer-email form input[type=email]::-moz-placeholder {
+  color: rgb(138, 138, 138);
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer .footer-content .footer-email form input[type=email]::placeholder {
+  color: rgb(138, 138, 138);
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer .footer-content .footer-email form input[type=email]:focus {
+  border: 1px solid rgb(84, 84, 84);
+}
+footer .footer-content .footer-email form button {
+  border: none;
+  border-radius: 5px;
+  background: #1B75BB;
+  color: #FFF;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.48px;
+  padding: 16px 30px;
+  display: inline-block;
+  vertical-align: middle;
 }/*# sourceMappingURL=style.css.map */
